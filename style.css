@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#FFF5EE;
+}
+.wrapper2{
+    background: white;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+}
+.wrapper2{
+    padding: 50px 5px;
+}
+
+.wrapper h1{
+  position: relative;
+  right: 300px;
+  color: blue;
+}
+.wrapper p{
+    position: relative;
+    right: 300px;
+    font-size: 20px;
+}
+.wrapper{
+    padding-left: 80px;
+    
+}
+.input-box{
+    padding: 11px 32px;
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin: 8px;
+    border: 0.1px solid grey;
+
+    
+}
+.btn{
+    padding: 11px 140px;
+    background-color: #1877f2;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    font-weight: bolder;
+    margin: 6px;
+    
+    
+}
+.remember-forgot{
+    padding-left:109px;
+    
+    
+}
+.remember-forgot a{
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 100;
+    
+}
+
+input{
+    border: none;
+    outline: none;
+    margin:-20px;
+    
+}
+
+.create-account{
+    padding: 11px 11px;
+    margin-left: 90px;
+    
+}
+.create-account{
+    border-radius: 5px;
+    background-color: #32CD32; 
+    
+}
+
+.grey-line{
+    border: 1px solid grey;
+    margin-left: 10px;
+    margin-right: 8px;
+    margin: 8px;
+}
+
+
+.create-account, a{
+    text-decoration: none;
+    color: white;
+    font-size: bold;
+    border: none;
+}
+.btn:hover{
+    background-color: #0096FF;
+}
+.create-account:hover{
+    background-color: #4CBB17;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
